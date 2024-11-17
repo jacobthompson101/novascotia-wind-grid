@@ -1,0 +1,172 @@
+﻿id,Energy,nid,fuel (NotSame),techType,name,system,company,units,model,makeN,numberN,Unit_RC_N,output,yearBuilt_Added,op_month,yearUpgraded ,turb_id,Lat,Long,height,fuel consumption,MMBTU,gwh,ghg,LCA,Sox,Nox,Hg,ComFIT_Status,Note
+0,Wind,wind1,,,Pubnico Point,,FPL ENERGY,17,Vestas,V80,,1.8,30.6,2004,,,236,43.603,-65.804,78,,,130.343,,,,,,,
+1,Wind,wind2,,,Little Brook,,NSPower,1,Turbowinds,T-600-48,,0.6,0.6,2002,,,209,44.298,-66.097,50,,,1.874,,,,,,,
+2,Wind,wind3,,,Tiverton,,Renewable Energy Developers Inc,1,EWT,DW52,,0.9,0.9,2006,,,75,44.407,-66.189,50,,,3.927,,,,,,,
+3,Wind,wind4,,,Digby Neck,,NSPower,20,General Electric,GE 1.5 sle,,1.5,30,2010,,,96,44.597,-65.949,80,,,138.397,,,,,,,
+4,Wind,wind5,,,Digby,,RESL,1,Enercon,E48,,0.8,0.8,2006,,,58,44.649,-65.799,50,,,3.037,,,,,,,
+5,Wind,wind6,,,Goodwood,,RESL,1,Turbowinds,T-600-48,,0.6,0.6,2005,,,209,44.607,-63.678,50,,,1.748,,,,,,,
+6,Wind,wind7,,,Brookfield,,RESL,1,Turbowinds,T-600-48,,0.6,0.6,2005,,,209,45.267,-63.252,50,,,1.282,,,,,,,
+7,Wind,wind8,,,Higgins Mtn,,Renewable Energy Developers Inc,3,Vensys,V62,,1.2,3.6,2007,,,215,45.576,-63.617,69,,,13.054,,,,,,,
+8,Wind,wind9,,,Springhill,,Renewable Energy Developers Inc,2,Vensys;EWT,V62;DW52,1;1,1.2;0.9,2.1,2005;2006,,,215;75,45.611,-64.024,69;50,,,6.966,,,,,,,
+9,Wind,wind10,,,Amherst,,Renewable Energy Developers Inc,15,Suzlon Energy,S97,,2.1,31.5,2012,,,205,45.828,-64.248,90,,,121.823,,,,,,,
+10,Wind,wind11,,,Tatamagouche,,RESL,1,Enercon,E48,,0.8,0.8,2006,,,58,45.757,-63.102,50,,,2.881,,,,,,,
+11,Wind,wind12,,,Nuttby Mtn,,NSPower,22,Enercon,E82,,2.3,50.6,2010,,,63,45.561,-63.225,78,,,173.933,,,,,,,
+12,Wind,wind13,,,Dalhousie Mtn,,RMS Energy,34,General Electric,GE 1.5 sle,,1.5,51,2009,,,96,45.577,-62.971,80,,,206.988,,,,,,,
+13,Wind,wind14,,,Spiddle Hill,,Colchester Cumberland Wind Field,2,Enercon,E48;E53,1;1,0.8;0.8,1.6,2011;2013,,,58;59,45.6129,-63.1979,50;60,,,5.917,,,,,,,
+14,Wind,wind15,,,Fitzpatrick Mtn,,Shear Wind,2,Enercon,E48,,0.8,1.6,2006,,,58,45.627,-62.898,50,,,5.594,,,,,,,
+15,Wind,wind16,,,Watt Section,,Watts Wind Energy Inc,1,Vensys,V77,,1.5,1.5,2011,,,217,44.899,-62.471,85,,,5.174,,,,,,,
+16,Wind,wind17,,,Glen Dhu,,Shear Wind Inc.,27,Enercon,E82,,2.3,62.1,2011,,,63,45.667,-62.229,78,,,230.272,,,,,,,
+17,Wind,wind18,,,Maryvale,,Maryvale Wind,4,Vensys,V77,,1.5,6,2010,,,217,45.729,-62.065,85,,,26.348,,,,,,,
+18,Wind,wind19,,,Point Tupper,,RESL/NSP,12,Enercon,E48;E82,1;11,0.8;2.05,23.4,2006;2010,,,58;63,45.571,-61.311,50;78,,,91.677,,,,,,,
+19,Wind,wind20,,,Grand Etang,,NSPower,1,Vestas,V-47 660,,0.66,0.66,2002,,,231,46.549,-61.038,50,,,2.687,,,,,,,
+20,Wind,wind21,,,Lingan,,Renewable Energy Developers Inc,8,Enercon,E70 E70;E82;E82,4 1;2;1,2.3 2.03;2.3;2.3,18.19,2006;2007;2012,,,61 60;63;63,46.241,-60.039,64 64;78;78,,,64.798,,,,,,,
+21,Wind,wind22,,,Glace Bay,,Renewable Energy Developers Inc,1,Enercon,E48,,0.8,0.8,2005,,,58,46.218,-59.981,50,,,3.061,,,,,,,
+22,Wind,wind23,,,Donkin,,Renewable Energy Developers Inc,1,Enercon,E48,,0.8,0.8,2005,,,58,46.185,-59.897,50,,,3.052,,,,,,,
+23,Wind,wind24,,,Parker Mountain,,Scotian Windfields,1,Vestas,V100-2000,,1.99,1.99,2014,,,248,44.795,-65.498,100,,,7.785,,,,,,,
+24,Wind,wind25,,,Hampton Mtn,,Renewable Energy Developers Inc,12,Suzlon Energy,S95,,2.1,25.2,2012,,,206,44.884,-65.299,80,,,85.503,,,,,,,
+25,Wind,wind26,,,South Canoe,,OxfordFrozenFoods/NSP+MinasBasinPulp/NSP,34,Acciona,AW3000-116,,3,102,2015,,,13,44.768,-64.345,92,,,343.204,,,,,,,
+26,Wind,wind27,,,Pugwash,,Atlantic Wind Power Corp,12,Siemens,SWT 2.3 113,,2.3,27.6,2014,,,178,45.857,-63.619,99.5,,,133.029,,,,,,,
+27,Wind,wind28,,,Clydesdale Ridge,,Clydesdale Ridge Wind LP,30,General Electric,GE 1.68 - 80.5,,1.68,50.4,2014,,,99,45.562,-63.046,80,,,169.555,,,,,,,
+28,Wind,wind29,,,Irish Mtn,,Black River Wind,1,Enercon,E82,,2.3,2.3,2014,,,63,45.493,-62.624,78,,,6.846,,,,,,,
+29,Wind,wind30,,,Fairmont,,Wind Prospect Inc.,2,Enercon,E82,,2.3,4.6,2014,,,63,45.682,-61.987,78,,,15.6,,,,,,,
+30,Wind,wind31,,,Sable Wind,,Municipality of Guysborough,6,Enercon,E82,,2.3,13.8,2015,,,63,45.318,-60.997,78,,,59.239,,,,,,,
+31,Wind,wind32,,,Creignish Rear,,Black River Wind,1,Enercon,E82,,2.3,2.3,2014,,,63,45.726,-61.42,78,,,8.203,,,,,,,
+32,Wind,wind33,,,South Cape Mabou,,Black River Wind,1,Enercon,E82,,2.3,2.3,2014,,,63,46.126,-61.399,78,,,8.248,,,,,,,
+33,Wind,wind34,,,Dalhousie,,Affinity Renewables (SPCA),2,General Electric,1.5 sle,,1.5,3,2015,,,96,45.5669,-62.9669,80,,,12.176,,,,,,,
+34,Wind,wind35,,,Greenfield,,Affinity Renewables (SPCA),2,General Electric,1.6-82.5,,1.6,3.2,2015,,,98,45.3477,-63.1393,80,,,11.039,,,,,,,
+35,Wind,wind36,,,Kemptown,,Affinity Renewables (SPCA),3,General Electric,1.68-82.5,,1.66,4.99,2015,,,99,45.4953,-63.1201,80,,,13.937,,,,,,,
+36,Wind,wind37,,,Limerock,,Affinity Renewables (SPCA),3,General Electric,1.68-82.5,,1.66,4.99,2015,,,99,45.5391,-62.8219,80,,,14.761,,,,,,,
+37,Wind,wind38,,,Dean Back Road,,Affinity Renewables (SPCA),1,General Electric,1.85-82.5,,1.9,1.9,2015,,,100,45.1782,-62.9065,80,,,5.222,,,,,,,
+38,Wind,wind39,,,Gardiner Mines,,Cape Breton University,3,Enercon,E53 0.8; E92 2.35,1;2,0.8;2.35,5.4,2015,,,59;66,46.1963,-60.0944,60;98,,,20.69,,,,,,,
+39,Wind,wind40,,,Cheticamp,,Celtic Current,1,Enercon,E44 0.9,,0.9,0.9,2015,,,57,46.55,-61.0333,55,,,3.205,,,,,,,
+40,Wind,wind41,,,Bateston,,Celtic Current,1,Enercon,E92 2.35,,2.3,2.3,2015,,,66,45.9948,-59.903,85,,,8.808,,,,,,,
+41,Wind,wind42,,,Mulgrave,,Celtic Current,1,Enercon,E92 2.35,,2.3,2.3,2014,,,66,45.6215,-61.4335,85,,,9.027,,,,,,,
+42,Wind,wind43,,,Truro Heights,,Eskasoni Band Council,2,Vestas,V100-2000,,2,4,2014,,,248,45.3162,-63.3408,80,,,13.573,,,,,,,
+43,Wind,wind44,,,Amherst,,Kwilmu'kw Maw-klusuaqn***,3,Enercon,E92 2.0,,2,6,2015,,,65,45.8334,-64.1443,85,,,22.828,,,,,,,
+44,Wind,wind45,,,Whynott's Settlement,,Kwilmu'kw Maw-klusuaqn***,2,Vestas,V100-2000,,2,4,2014,,,248,44.4046,-64.4664,80,,,12.138,,,,,,,
+45,Wind,wind46,,,Millbrook,,Millbrook First Nation,3,Vestas,V100-2000,,2,6,2014,,,248,45.3263,-63.3446,80,,,20.054,,,,,,,
+46,Wind,wind47,,,Ellershouse,,Minas Energy,7,Enercon,E92 2.35,,2.3,16.1,2015,,,66,44.9302,-64.0215,98,,,53.155,,,,,,,
+47,Wind,wind48,,,Kaizer Meadow,,Municipality of Chester,1,Enercon,E70-2000,,2,2,2014,,,60,44.7278,-64.2544,64,,,5.242,,,,,,,
+48,Wind,wind49,,,Sandy Point,,Municipality of the District of Shelburne,1,Vestas,V52-850,,0.8,0.8,2016-2020,,,232,43.672,-65.2861,65,,,2.799,,,,,,,
+49,Wind,wind50,,,Brenton,,Scotian Wind,1,Vestas,V100-2000,,1.99,1.99,2016,,,248,43.9748,-66.0839,80,,,7.663,,,,,,,
+50,Wind,wind51,,,Little River Harbour,,Scotian Wind,1,Vestas,V100-2000,,1.99,1.99,2014,,,248,43.7535,-66.0304,80,,,9.662,,,,,,,
+51,Wind,wind52,,,Black Pond,,Scotian Wind,1,Vestas,V100-2000,,1.99,1.99,2015,,,248,43.7516,-66.0212,80,,,9.662,,,,,,,
+52,Wind,wind53,,,Martinique,,Scotian Wind,1,Vestas,V100-2000,,1.99,1.99,2015,,,248,45.5682,-61.0733,80,,,8.008,,,,,,,
+53,Wind,wind54,,,Saint Rose,,Scotian Wind,1,Vestas,V100-2000,,1.99,1.99,2014,,,248,46.3303,-61.1765,80,,,8.579,,,,,,,
+54,Wind,wind55,,,Rear Baddeck Bay,,Scotian Wind,1,Vestas,V100-2000,,1.99,1.99,2016,,,248,46.1466,-60.7011,80,,,6.45,,,,,,,
+55,Wind,wind56,,,Nine Mile River,,Scotian Wind,2,Vestas,V100-2000,,2,4,2015,,,248,45.0254,-63.6577,80,,,13.995,,,,,,,
+56,Wind,wind57,,,Martock Ridge,,Scotian Wind,3,Vestas,V100-2000,,2,6,2015,,,248,44.9292,-64.1168,80,,,21.779,,,,,,,
+57,Wind,wind58,,,North Beaverbank,,Scotian Wind,4,Vestas,V100-2000,,2,8,2015,,,248,44.9184,-63.6809,80,,,32.203,,,,,,,
+58,Wind,wind59,,,Hardwood Lands,,Scotian Wind,3,Vestas,V110-2000,,2,6,2016,,,250,45.0897,-63.524,80,,,23.896,,,,,,,
+59,Wind,wind60,,,West Green Harbour,,Scotian Wind,1,Vestas,V52-850,,0.8,0.8,2016,,,232,43.7182,-65.1708,65,,,2.791,,,,,,,
+60,Wind,wind61,,,Pockwock,,The Chebucto Wind Field Inc.,5,Vestas,V100-2000,,2,10,2014,,,248,44.7707,-63.8369,80,,,36.811,,,,,,,
+61,Wind,wind62,,,Avondale,,The Northumberland Wind Field Inc,1,Enercon,E92 2.35,,2.35,2.35,2015,,,66,45.6369,-62.2893,85,,,8.561,,,,,,,
+62,Wind,wind63,,,Lower Wedgeport,,Watts Wind Energy Inc,1,General Electric,1.6-82.5,,1.6,1.6,2015,,,98,43.7519,-66.0103,80,,,7.29,,,,,,,
+63,Wind,wind64,,,Porter's Lake,,Watts Wind Energy Inc,2,General Electric,1.6-82.5,,1.6,3.2,2015,,,98,44.726,-63.3543,80,,,10.866,,,,,,,
+64,Wind,wind65,,,Atwoods Brook,,Watts Wind Energy Inc,2,General Electric,1.6-82.5,,1.6,3.2,2015,,,98,43.5198,-65.6624,80,,,15.009,,,,,,,
+65,Wind,wind66,,,Harrietsfield,,Watts Wind Energy Inc,3,General Electric,1.6-82.5,,1.53,4.6,2015,,,98,44.5347,-63.6136,80,,,20.137,,,,,,,
+66,Wind,wind67,,,McLellans Brook,,Watts Wind Energy Inc,4,General Electric,1.6-82.5,,1.6,6.4,2015,,,98,45.506,-62.6086,80,,,24.332,,,,,,,
+67,Wind,wind68,,,Liverpool,,Watts Wind Energy Inc,2,Enercon,E92 2.35,,1.8,3.6,2016,,,66,44.0904,-64.7055,85,,,13.18,,,,,,,
+68,Wind,wind69,,,Terence Bay,,Watts Wind Energy Inc,3,Enercon,E92 2.35,,2.4,7.2,2016,,,66,44.5052,-63.7114,85,,,27.032,,,,,,,
+69,Wind,wind70,,,Hillside Boularderie,,Wind4all Communities - Natural Forces,2,Enercon,E82 E2,,2,4,2015,,,64,46.2457,-60.3503,80,,,14.657,,,,,,,
+70,Wind,wind71,,,Barrchois,,Wind4all Communities - Natural Forces,2,Enercon,E92 2.0,,2,4,2015,,,65,46.1526,-60.4032,85,,,15.278,,,,,,,
+71,Wind,wind72,,,Gaetzbrook,,Wind4all Communities - Natural Forces,1,Enercon,E92 2.35,,2.3,2.3,2014,,,66,44.7696,-63.2046,85,,,7.59,,,,,,,
+72,Wind,wind73,,,Aulds Mountain,,Wind4all Communities - Natural Forces,2,Enercon,E92 2.35,,2.3,4.6,2015,,,66,45.5924,-62.3512,85,,,16.843,,,,,,,
+73,Hydro,hydro1,Tusket River,,Tusket,Tusket,NSPower,3,,,,,2.4,1929,,,,43.84365,-66.05355,,,,11.272,,,,,,,
+74,Hydro,hydro2,Roseway River,,Roseway,Roseway,NSPower,2,,,,,1.8,1921;1937,,,,43.74827,-65.4217,,,,1.392,,,,,,,
+75,Hydro,hydro3,Mersey River,,Cowie Falls,Mersey System,NSPower,2,,,,,7,1938,,,,44.00045,-64.84027,,,,41.667,,,,,,,
+76,Hydro,hydro4,Mersey River,,Deep Brook,Mersey System,NSPower,2,,,,,9,1950,,,,44.05567,-64.87904,,,,53.571,,,,,,,
+77,Hydro,hydro5,Mersey River,,Lower Great Falls,Mersey System,NSPower,2,,,,,3,1955,,,,44.06448,-64.94458,,,,17.857,,,,,,,
+78,Hydro,hydro6,Mersey River,,Big Falls,Mersey System,NSPower,2,,,,,10,1929,,,,44.09004,-64.99754,,,,59.524,,,,,,,
+79,Hydro,hydro7,Mersey River,,Lower Lake Falls,Mersey System,NSPower,2,,,,,7,1929,,,,44.14013,-64.98763,,,,41.667,,,,,,,
+80,Hydro,hydro8,Rossignol Lake,,Upper Lake Falls,Mersey System,NSPower,2,,,,,7,1929,,,,44.14376,-65.06974,,,,41.667,,,,,,,
+81,Hydro,hydro9,Medway River,,Harmony,Harmony,NSPower,1,,,,,0.6,1943,,,,44.3373,-65.12854,,,,0.464,,,,,,,
+82,Hydro,hydro10,Bear River,,Ridge,Bear River System,NSPower,1,,,,,4,1957,,,,44.53589,-65.58032,,,,16.692,,,,,,,
+83,Hydro,hydro11,Sissiboo River,,Weymouth,Sissiboo,NSPower,2,,,,,18,1961;1967,,,,44.39302,-66.03987,,,,61.919,,,,,,,
+84,Hydro,hydro12,Sissiboo River,,Sissiboo,Sissiboo,NSPower,1,,,,,5,1961,,,,44.40677,-65.95404,,,,17.2,,,,,,,
+85,Hydro,hydro13,Sissiboo River,,Fourth Lake,Sissiboo,NSPower,1,,,,,3,1983,,,,44.3797,-65.80127,,,,10.32,,,,,,,
+86,Hydro,hydro14,Bear River,,Gulch,Bear River System,NSPower,1,,,,,6,1952,,,,44.57361,-65.68863,,,,25.038,,,,,,,
+87,Hydro,hydro15,Allain's Creek,,Lequille,Lequille System,NSPower,1,,,,,11.2,1968,,,,44.68869,-65.49796,,,,29.94,,,,,,,
+88,Hydro,hydro16,Paradise Brook,,Paradise,Paradise,NSPower,1,,,,,4.7,1950,,,,44.81953,-65.25553,,,,24.127,,,,,,,
+89,Hydro,hydro17,Nictaux River,,Nictaux,Nictaux,NSPower,1,,,,,8.3,1954,,,,44.87237,-65.05624,,,,45.552,,,,,,,
+90,Hydro,hydro18,Black River,,Hells Gate,Black River,NSPower,2,,,,,7,1930;1949,,,,44.99413,-64.51378,,,,34.307,,,,,,,
+91,Hydro,hydro19,Black River,,White Rock,Black River,NSPower,1,,,,,3,1952,,,,45.00601,-64.43464,,,,14.703,,,,,,,
+92,Hydro,hydro20,Black River,,Lumsden,Black River,NSPower,1,,,,,3,1949,,,,44.93629,-64.50904,,,,14.703,,,,,,,
+93,Hydro,hydro21,Black River,,Hollow Bridge,Black River,NSPower,1,,,,,5,1942,,,,44.91603,-64.43145,,,,24.505,,,,,,,
+94,Hydro,hydro22,Gaspereaux Lake,,Methals,Black River,NSPower,1,,,,,3,1949,,,,44.87643,-64.49298,,,,14.703,,,,,,,
+95,Hydro,hydro23,Avon River,,Avon #1,Avon,NSPower,1,,,,,3.9,1991,,,,44.82759,-64.29096,,,,15.606,,,,,,,
+96,Hydro,hydro24,Avon River,,Avon #2,Avon,NSPower,1,,,,,2.9,1929,,,,44.76579,-64.33126,,,,11.605,,,,,,,
+97,Hydro,hydro25,Big Indian Lake,,Sandy Lake,St. Margaret's Bay,NSPower,2,,,,,4,1928,,,,44.69972,-63.91775,,,,9.498,,,,,,,
+98,Hydro,hydro26,Wright Lake,,Mill Lake,St. Margaret's Bay,NSPower,2,,,,,2,1922,,,,44.62892,-63.92569,,,,4.749,,,,,,,
+99,Hydro,hydro27,Big Indian Lake,,Tidewater,St. Margaret's Bay,NSPower,2,,,,,4,1922,,,,44.66975,-64.01,,,,9.498,,,,,,,
+100,Hydro,hydro28,Soldier Lake,,Fall River,Fall River,NSPower,1,,,,,0.5,1985,,,,44.73025,-63.6508,,,,2.347,,,,,,,
+101,Hydro,hydro29,East River,,Malay Falls,Sheet Harbour,NSPower,3,,,,,3,1924,,,,44.93569,-62.55177,,,,15.974,,,,,,,
+102,Hydro,hydro30,East River,,Ruth Falls,Sheet Harbour,NSPower,3,,,,,7,1925;1936,,,,44.88396,-62.58938,,,,37.274,,,,,,,
+103,Hydro,hydro31,Donahue Lake,,Dickie Brook,Dickie Brook,NSPower,2,,,,,3.8,1948,,,,45.26696,-61.55176,,,,7.042,,,,,,,
+104,Hydro,hydro32,Indian Brook,,Wreck Cove,Wreck Cove,NSPower,2,,,,,230,1978,,,,46.46234,-60.63779,,,,332.229,,,,,,,
+105,Hydro,hydro33,Cheticamp River,,Gisborne,Wreck Cove,NSPower,1,,,,,3.5,1982,,,,46.48805,-60.72282,,,,5.056,,,,,,,
+106,Hydro,hydro34,Panuke Lake,,Upper St Croix,St Croix,Minas Basin Pulp and Power,1,,,,,2,1938,,,,44.86771,-64.06371,,,,9.556,,,,,,,
+107,Hydro,hydro35,St Croix River,,Lower St Croix,St Croix,Minas Basin Pulp and Power,1,,,,,3,1934,,,,44.92711,-64.04671,,,,14.335,,,,,,,
+108,Hydro,hydro36,Lahave River,,Morgan Falls,Morgan Falls,Morgan Falls Power,1,,,,,0.2,1995,,,,44.47368,-64.95945,,,,1.419,,,,,,,
+109,Hydro,hydro37,Melford Brook,,Black River Hydro,Black River Hydro,Black River Hydro,1,,,,,0.3,1993,,,,45.42514,-61.42475,,,,1.856,,,,,,,
+110,Hydro,hydro38,Muskrat Falls,,Maritime Link,Muskrat Falls,NSPower and NLPower,1,,,,,500,2017,,,,46.58018,-60.20146,,,,1314,,,,,,,
+111,Tidal,tidal1,,Barrage,Annapolis Valley,,NSPower,1,TBD,TBD,,19.4,19.4,1984,,,,44.7519,-65.5111,,,,30.268,,,,,,,
+112,Tidal,tidal2,,Current,Minas Passage,,Black Rock Tidal Power,1,Schottel,Triton S36,,2.5,2.5,TBD,,,,45.3641,-64.4223,,,,6.16,,,,,,,
+113,Tidal,tidal3,,Current,Minas Passage,,Minas Energy,1,Marine Current,SeaGen F 16m,,2,2,TBD,,,,45.36844,-64.42944,,,,4.928,,,,,,,
+114,Tidal,tidal4,,Current,Minas Passage,,NSPower,2,Open Hydro,OpenCentre 16m,,2,4,TBD,,,,45.36696,-64.42464,,,,9.856,,,,,,,
+115,Tidal,tidal5,,Current,Minas Passage,,Lockheed Martin/Irving Shipbuilding,1,Atlantis,AR1500 18m,,1.5,1.5,TBD,,,,45.3673,-64.43696,,,,3.696,,,,,,,
+116,Biomass,thermal1,Wood,,Brooklyn,,Brooklyn Energy Centre,1,,,,23,23,1995,,,,44.0515,-64.6956,,,,155,,,,,,,
+117,Biomass,thermal2,Methane,,Sackville Landfill,,Highland Energy,1,,,,2,2,2006,,,,44.8111,-63.7758,,,,8.7,,,,,,,
+118,Biomass,thermal3,Wood,,Middle Musquodoboit,,Taylor Lumber,1,,,,1.2,1.2,1995,,,,45.0447,-63.1394,,,,4.4,,,,,,,
+119,Biomass,thermal4,Wood,,New Glasgow,,Northern Pulp,1,,,,25,25,1967,,,,45.6533,-62.7183,,,,197.1,,,,,,,
+120,Biomass,thermal5,Wood,,Port Hawkesbury,,NSPower,1,,,,60,60,1971;2012,,,,45.5997,-61.3567,,,,473.04,,,,,,,
+121,Fossil,thermal6,Coal/Pet Coke/HFO,,Lingan,,NSPower,4,Combustion Engineering,Toshiba,,150;150;150;150,620,1979,,"NOx_2006,2007,2007,2008",Toshiba,46.2363,-60.0398,,,,3305,,,,,,,
+122,Fossil,thermal7,Coal/Pet Coke,,Point Aconi,,NSPower,1,Pyropower,GE,,192,171,1994,,,GE,46.3213,-60.3299,,,,1141,,,,,,,
+123,Fossil,thermal8,Coal/Pet Coke/HFO,,Trenton,,NSPower,2,Babcock & Wilcox,,,"150,160",307,1969;2009,,NOx_2008,,45.6202,-62.6498,,,,1721,,,,,,,
+124,Fossil,thermal9,Oil/Coal,,Point Tupper,,NSPower,2,Combustion Engineering;Babcock & Wilcox,GE;Stal,,"79,150",154,1973;1987,,,Howden Parsons;Parsons,45.5867,-61.3477,,,,877,,,,,,,
+125,Fossil,thermal10,HFO/Natural Gas,,Tufts Cove,,NSPower,6,Babcock & Wilcox;Goldie McCulloch;Babcock & Wilcox,Associated Electric Industries Ltd;Howden Parsons;Parsons,,"100,100,150,47,47,50",500,"1965,1972,1976;2003,2004,2011",,,AEI;Howden Parsons;Parson,44.6763,-63.5968,,,,1639,,,,,,,
+126,Fossil,thermal11,LFO,,Tusket,,NSPower,1,,,,24,23.89,1971,,,,43.8605,-65.9931,,,,0,,,,,,,
+127,Fossil,thermal12,LFO,,Burnside,,NSPower,4,,,,"33,33,33,33",131.41,1976,,,,44.7147,-63.6098,,,,0,,,,,,,
+128,Fossil,thermal13,LFO,,Victoria Junction,,NSPower,2,,,,"33,33",65.7,1975,,,,46.1619,-60.1128,,,,0,,,,,,,
+129,WindCOMFIT,wind74,,,,Grand Etang Nova Scotia,Lemoine Development Association,1,,,,,0.0035,,,,,-61.033333,46.55,,,,,,,,,,"Approved February 14, 2012",Note: Unverified Projects whether built or not
+130,WindCOMFIT,wind75,,,,Cheticamp Nova Scotia,Celtic Current,1,,,,,0.05,,,,,-61.0148151,46.6249594,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+131,WindCOMFIT,wind76,,,,Inverness Nova Scotia,Celtic Current,1,,,,,0.05,,,,,-61.3043828,46.2308276,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+132,WindCOMFIT,wind77,,,,Inverness Nova Scotia,Celtic Current,1,,,,,0.05,,,,,-61.3043828,46.2308276,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+133,WindCOMFIT,wind78,,,,Mulgrave Nova Scotia,Celtic Current,1,,,,,0.05,,,,,-61.3917295,45.6118539,,,,,,,,,,"Approved December 11, 2012",Note: Unverified Projects whether built or not
+134,WindCOMFIT,wind79,,,,Mulgrave Nova Scotia,Celtic Current,1,,,,,0.05,,,,,-61.3917295,45.6118539,,,,,,,,,,"Approved December 11, 2012",Note: Unverified Projects whether built or not
+135,WindCOMFIT,wind80,,,,Nova Scotia,Celtic Current,1,,,,,0.05,,,,,-63.744311,44.6819866,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+136,WindCOMFIT,wind81,,,,Port Hood Nova Scotia,Chestico Museum and Historical Society 1,1,,,,,0.05,,,,,-61.5289291,46.0151061,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+137,WindCOMFIT,wind82,,,,Port Hood Nova Scotia,Chestico Museum and Historical Society 2,1,,,,,0.05,,,,,-61.5289291,46.0151061,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+138,WindCOMFIT,wind83,,,,Spiddle Hil Nova Scotia,Colchester Cumberland Wind Field,1,,,,,0.05,,,,,-63.2031007,45.5963496,,,,,,,,,,"Approved December 13, 2011",Note: Unverified Projects whether built or not
+139,WindCOMFIT,wind84,,,,Spiddle Hill Nova Scotia,Colchester Cumberland Wind Field,1,,,,,0.05,,,,,-63.2031007,45.5963496,,,,,,,,,,"Approved September 11, 2012",Note: Unverified Projects whether built or not
+140,WindCOMFIT,wind85,,,,Spiddle Hill Nova Scotia,Colchester-Cumberland Wind Field,1,,,,,0.05,,,,,-63.2031007,45.5963496,,,,,,,,,,"Approved February 14, 2012",Note: Unverified Projects whether built or not
+141,WindCOMFIT,wind86,,,,Overton Nova Scotia,Mun. of the District of Yarmouth,1,,,,,0.05,,,,,-66.141836,43.844845,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+142,WindCOMFIT,wind87,,,,Overton Nova Scotia,Mun. of the District of Yarmouth,1,,,,,0.05,,,,,-66.141836,43.844845,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+143,WindCOMFIT,wind88,,,,Kemptown Nova Scotia,Municipality of the County of Colchester,1,,,,,0.05,,,,,-63.1054142,45.5009847,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+144,WindCOMFIT,wind89,,,,Kemptown Nova Scotia,Municipality of the County of Colchester,1,,,,,0.05,,,,,-63.1054142,45.5009847,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+145,WindCOMFIT,wind90,,,,Riverton Nova Scotia,Municipality of the County of Pictou,1,,,,,0.05,,,,,-62.6856065,45.5204215,,,,,,,,,,"Approved September 11, 2012",Note: Unverified Projects whether built or not
+146,WindCOMFIT,wind91,,,,Riverton Nova Scotia,Municipality of the County of Pictou,1,,,,,0.05,,,,,-62.6856065,45.5204215,,,,,,,,,,"Approved September 11, 2012",Note: Unverified Projects whether built or not
+147,WindCOMFIT,wind92,,,,Riverton Nova Scotia,Municipality of the County of Pictou,1,,,,,0.05,,,,,-62.6856065,45.5204215,,,,,,,,,,"Approved September 11, 2012",Note: Unverified Projects whether built or not
+148,WindCOMFIT,wind93,,,,Riverton Nova Scotia,Municipality of the County of Pictou,1,,,,,0.05,,,,,-62.6856065,45.5204215,,,,,,,,,,"Approved November 19, 2013",Note: Unverified Projects whether built or not
+149,WindCOMFIT,wind94,,,,Riverton Nova Scotia,Municipality of the County of Pictou,1,,,,,0.05,,,,,-62.6856065,45.5204215,,,,,,,,,,"Approved November 19, 2013",Note: Unverified Projects whether built or not
+150,WindCOMFIT,wind95,,,,Riverton Nova Scotia,Municipality of the County of Pictou,1,,,,,0.05,,,,,-62.6856065,45.5204215,,,,,,,,,,"Approved November 19, 2013",Note: Unverified Projects whether built or not
+151,WindCOMFIT,wind96,,,,Barrington Nova Scotia,Municipality of the District of Barrington,1,,,,,0.05,,,,,-65.5643972,43.5643397,,,,,,,,,,"Approved October 15, 2014",Note: Unverified Projects whether built or not
+152,WindCOMFIT,wind97,,,,Goldboro Nova Scotia,Municipality of the District of Guysborough,1,,,,,0.05,,,,,-61.6521757,45.1823174,,,,,,,,,,"Approved September 11, 2012",Note: Unverified Projects whether built or not
+153,WindCOMFIT,wind98,,,,Goldboro Nova Scotia,Municipality of the District of Guysborough,1,,,,,0.05,,,,,-61.6521757,45.1823174,,,,,,,,,,"Approved March 22, 2012",Note: Unverified Projects whether built or not
+154,WindCOMFIT,wind99,,,,Goldboro Nova Scotia,Municipality of the District of Guysborough,1,,,,,0.05,,,,,-61.6521757,45.1823174,,,,,,,,,,"Approved April 5, 2012",Note: Unverified Projects whether built or not
+155,WindCOMFIT,wind100,,,,Middle Melford Nova Scotia,Municipality of the District of Guysborough,1,,,,,0.05,,,,,-61.315859,45.53656,,,,,,,,,,"Approved March 22, 2012",Note: Unverified Projects whether built or not
+156,WindCOMFIT,wind101,,,,Middle Melford Nova Scotia,Municipality of the District of Guysborough,1,,,,,0.05,,,,,-61.315859,45.53656,,,,,,,,,,"Approved April 5, 2012",Note: Unverified Projects whether built or not
+157,WindCOMFIT,wind102,,,,Shelburne Nova Scotia,Municipality of the District of Shelburne,1,,,,,0.05,,,,,-65.3240227,43.7643579,,,,,,,,,,"Approved April 5, 2012",Note: Unverified Projects whether built or not
+158,WindCOMFIT,wind103,,,,Cheticamp Nova Scotia,Port Hood & District Rec Commission,1,,,,,0.05,,,,,-61.0148151,46.6249594,,,,,,,,,,"Approved September 11, 2012",Note: Unverified Projects whether built or not
+159,WindCOMFIT,wind104,,,,Cheticamp Nova Scotia,Port Hood & District Rec Commission,1,,,,,0.05,,,,,-61.0148151,46.6249594,,,,,,,,,,"Approved September 11, 2012",Note: Unverified Projects whether built or not
+160,WindCOMFIT,wind105,,,,Avondale Nova Scotia,The Northumberland Wind Field Inc,1,,,,,0.05,,,,,-64.123734,45.022974,,,,,,,,,,"Approved December 13, 2011",Note: Unverified Projects whether built or not
+161,WindCOMFIT,wind106,,,,Barney's River Nova Scotia,The Northumberland Wind Field Inc,1,,,,,0.05,,,,,-62.2480242,45.594005,,,,,,,,,,"Approved February 14, 2012",Note: Unverified Projects whether built or not
+162,WindCOMFIT,wind107,,,,Mulgrave Nova Scotia,The Northumberland Wind Field Inc.,1,,,,,0.05,,,,,-61.3917295,45.6118539,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+163,WindCOMFIT,wind108,,,,Pictou Nova Scotia,The Northumberland Wind Field Inc.,1,,,,,0.05,,,,,-62.720603,45.679332,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+164,WindCOMFIT,wind109,,,,Barney's River Nova Scotia,The Northumberland Wind Field Inc. - Avondale,1,,,,,0.05,,,,,-62.2480242,45.594005,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+165,WindCOMFIT,wind110,,,,Fitzpatrick Mountain Nova Scotia,The Northumberland Wind Field Inc. - Fitzpatrick,1,,,,,0.05,,,,,-62.8705818,45.6439114,,,,,,,,,,"Approved February 25, 2015",Note: Unverified Projects whether built or not
+166,WindCOMFIT,wind111,,,,"Fort Lawrence, Cumb County Nova Scotia",Town of Amherst,1,,,,,0.05,,,,,-64.240892,45.8460017,,,,,,,,,,"Approved March 22, 2012",Note: Unverified Projects whether built or not
+167,WindCOMFIT,wind112,,,,Mulgrave Nova Scotia,Town of Mulgrave,1,,,,,0.05,,,,,-61.3917295,45.6118539,,,,,,,,,,"Approved December 18, 2012",Note: Unverified Projects whether built or not
+168,WindCOMFIT,wind113,,,,New Glasgow Nova Scotia,Town of New Glasgow,1,,,,,0.05,,,,,-62.6451191,45.5871702,,,,,,,,,,"Approved February 7, 2012",Note: Unverified Projects whether built or not
+169,WindCOMFIT,wind114,,,,Church Point Nova Scotia,Universite Sainte Anne,1,,,,,0.05,,,,,-66.114493,44.338503,,,,,,,,,,"Approved June 12, 2012",Note: Unverified Projects whether built or not
+170,WindCOMFIT,wind115,,,,"Kentville, Kings County Nova Scotia",Valley Region SWRMAuthority,1,,,,,0.05,,,,,-64.4944735,45.0769115,,,,,,,,,,"Approved February 5, 2013",Note: Unverified Projects whether built or not

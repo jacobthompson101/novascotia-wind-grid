@@ -1,0 +1,14 @@
+# ignore PyCharm environment directory
+.idea
+
+# ignore JuptyerLab notebook environment directory
+.ipynb_checkpoints
+
+# ignore darksky data (has over 7000 CSV files, and 5GB too large for GitHub typically)
+darksky_data
+
+# ignore the database folder, not using yet anyway
+database
+
+# ignore big* .parquet files as over ~300 MB to 1GB
+big_*
