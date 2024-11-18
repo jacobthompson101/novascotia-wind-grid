@@ -1,0 +1,9 @@
+Hourly_NovaScotia_2010.txt	1
+Hour_distr-heat.txt		4
+Hour_solar1_prod.txt		2
+Hour_Tysklandsexport.txt	1
+Hour_wind_1.txt			6
+Hour_cshpel.txt			1
+Hour_transport.txt		3
+Hour_nordpool.txt		1
+const.txt			11
