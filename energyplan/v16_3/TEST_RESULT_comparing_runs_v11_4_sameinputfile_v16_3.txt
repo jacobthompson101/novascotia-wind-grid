@@ -1,0 +1,158 @@
+TEST RESULT:
+
+                                                    
+
+                        Exe1    Exe2                
+
+ Eldemand          :   20.000  20.000               
+ Eldemand(Cooling) :    0.000   0.000               
+ AddExport         :    0.000   0.000               
+ District Heating  :   20.000  20.000               
+ RES 1             :    2.074   2.074               
+ RES 2             :    0.348   1.037 !!!  Fail !!! 
+ RES 3             :    0.000   0.000               
+ RES 4             :    0.000   0.000               
+ Hydro Power       :    0.000   0.000               
+ Hydro Pump        :    0.000   0.000               
+ Hydro_storage     :    0.000   0.000               
+ hydro_watersupply :    0.000   0.000               
+ hydro_waterLoss   :    0.000   0.000               
+ solar             :    0.000   0.000               
+ cshp1_th          :    0.000   0.000               
+ waste_th_gr1 m    :    0.000   0.000               
+ dhp               :    0.000   0.000               
+ cshp2_th[16]      :    0.000   0.000               
+ waste_th_gr2      :    0.000   0.000               
+ geothermal_th_gr2 :    0.000   0.000               
+ Waste_steam_gr2   :    0.000   0.000               
+ steamstorage2     :    0.000   0.000               
+ chp2_th           :    8.319   8.303 !!!  Fail !!! 
+ hp2_th            :    0.000   0.000               
+ boiler2           :    1.681   1.694 !!!  Fail !!! 
+ EP2               :    0.000   0.000               
+ elt2_th           :    0.000   0.000               
+ heatstorage2      :    0.001  -0.004 !!!  Fail !!! 
+ heatbalance2      :    0.000   0.004 !!!  Fail !!! 
+ cshp3_th          :    0.000   0.000               
+ waste_th_gr3      :    0.000   0.000               
+ geothermal_th_gr3 :    0.000   0.000               
+ Waste_steam_gr3   :    0.000   0.000               
+ steamstorage3     :    0.000   0.000               
+ chp3_th           :    9.948   9.147 !!!  Fail !!! 
+ hp3_th            :    0.052   0.860 !!!  Fail !!! 
+ boiler3           :    0.000   0.000               
+ EP3               :    0.000   0.000               
+ elt3_th           :    0.000   0.000               
+ heatstorage3      :    0.000   0.007 !!!  Fail !!! 
+ heatbalance3      :    0.000  -0.007 !!!  Fail !!! 
+ flexible_sum      :    0.000   0.000               
+ hp_el             :    0.017   0.287 !!!  Fail !!! 
+ cshp_el           :    0.000   0.000               
+ chp_el            :   14.614  13.960 !!!  Fail !!! 
+ pp                :    4.386   4.130 !!!  Fail !!! 
+ pp2               :    0.000   0.000               
+ nuclear_geothermal:    0.000   0.000               
+ pump_el           :    0.000   0.000               
+ turbine_el        :    0.000   0.000               
+ PumpStorage       :    0.000   0.000               
+ elt2_el           :    0.000   0.000               
+ H2Storage_gr2     :    0.000   0.000               
+ elt3_el           :    0.000   0.000               
+ H2Storage_gr3     :    0.000   0.000               
+ transport_v2g     :    0.000   0.000               
+ v2g_charge        :    0.000   0.000               
+ v2g_discharge     :    0.000   0.000               
+ v2G_battery_cont. :    0.000   0.000               
+ trans_electrolyser:    0.000   0.000               
+ trans_H2Storage   :    0.000   0.000               
+ CO2HydroElectric  :    0.000   0.000               
+ individual_CHP    :    0.000   0.000               
+ individual_HP     :    0.000   0.000               
+ individual_HP_EB  :    0.000   0.000               
+ individual_EB     :    0.000   0.000               
+ Indv_electrolyser :    0.000   0.000               
+ Indv_H2_storage   :    0.000   0.000               
+ HH_H2CHP_price    :    0.000   0.000               
+ indv._demand_heat :    0.000   0.000               
+ indv_CHPandHP_heat:    0.000   0.000               
+ indv_Boiler_heat  :    0.000   0.000               
+ indv_Solar_heat   :    0.000   0.000               
+ indv_Storage_heat :    0.000   0.000               
+ indv_balance_heat :    0.000   0.000               
+ import            :    0.000   0.000               
+ export            :    1.405   0.915 !!!  Fail !!! 
+ KEOL              :    0.000   0.004 !!!  Fail !!! 
+ EEOL              :    1.405   0.911 !!!  Fail !!! 
+ nordpool_prices   :    1.992   1.992               
+ MPrice_withoutProd:    0.000   0.000               
+ system_prices     :    0.000   0.000               
+ NordpoolDK_prices :    1.992   1.992               
+ Bottleneck_prices :    0.000   0.000               
+ import_payment    :    0.000   0.000               
+ export_payment    :  258.402 171.511 !!!  Fail !!! 
+ flaskehals_payment:    0.000  -0.678 !!!  Fail !!! 
+ AddExport_payment :    0.000   0.000               
+ Ngas_DHPAndBoilers:    0.467   0.470 !!!  Fail !!! 
+ Ngas_CHP          :    9.134   8.725 !!!  Fail !!! 
+ Ngas_PPAndCAES    :    2.437   2.295 !!!  Fail !!! 
+ Ngas_Individual   :    0.000   0.000               
+ Ngas_Transport    :    0.000   0.000               
+ Ngas_IndusAndVar  :    0.000   0.000               
+ Ngas_TotalDemand  :   12.037  11.490 !!!  Fail !!! 
+ Ngas_Biogas       :    0.000   0.000               
+ Ngas_Syngas       :    0.000   0.000               
+ CO2HydroSynGas    :    0.000   0.000               
+ HydroMathanation  :    0.000   0.000               
+ SynFuelSynGridGas :    0.000   0.000               
+ Ngas_storage      :    0.000   0.000               
+ Ngas_StorageCont  :    0.000   0.000               
+ Ngas_Sum          :   12.037  11.490 !!!  Fail !!! 
+ Ngas_Import       :   12.037  11.490 !!!  Fail !!! 
+ Ngas_Export       :    0.000   0.000               
+ fuel_dhp          :    0.000   0.000               
+ fuel_chp2         :   16.638  16.606 !!!  Fail !!! 
+ fuel_chp3         :   19.896  18.294 !!!  Fail !!! 
+ fuel_boiler2      :    1.868   1.882 !!!  Fail !!! 
+ fuel_boiler3      :    0.000   0.000               
+ fuel_pp_pp2_Sum   :    9.746   9.178 !!!  Fail !!! 
+ fuel_nuclear      :    0.000   0.000               
+ fuel_hydro        :    0.000   0.000               
+ fuel_waste        :    0.000   0.000               
+ fuel_elt+fuel_CAES:    0.000   0.000               
+ fuel_bioConversion:    0.000   0.000               
+ fuel_SynteticFuel :    0.000   0.000               
+ fuel_res1         :    2.074   2.074               
+ fuel_res2         :    0.348   1.037 !!!  Fail !!! 
+ fuel_res3         :    0.000   0.000               
+ fuel_res4         :    0.000   0.000               
+ fuel_solar        :    0.000   0.000               
+ fuel_transport    :    0.000   0.000               
+ fuel_households   :    0.000   0.000               
+ fuel_various+cshp :    0.000   0.000               
+ fuel_sum          :   50.571  49.071 !!!  Fail !!! 
+ fuel_imp_exp      :   -3.121  -2.033 !!!  Fail !!! 
+ fuel_korrigeret   :   47.449  47.038 !!!  Fail !!! 
+ output_CO2        :    9.780   9.336 !!!  Fail !!! 
+ CO2_korrigeret    :    9.780   9.336 !!!  Fail !!! 
+ ann_costs_nuclear :     0.00    0.00               
+ ann_costs_coal    :     0.00    0.00               
+ ann_costs_fueloil :     0.00    0.00               
+ ann_cost_gasdiesel:     0.00    0.00               
+ ann_costs_petrol  :     0.00    0.00               
+ ann_costs_Ngas    :     0.00    0.00               
+ ann_costs_Biomass :     0.00    0.00               
+ ann_costs_food    :     0.00    0.00               
+ ann_costs_waste   :     0.00    0.00               
+ ann_costs_import  :     0.00    0.00               
+ ann_costs_export  :  -258.40 -171.51 !!!  Fail !!! 
+ ann_cos_bottleneck:     0.00    0.68 !!!  Fail !!! 
+ ann_cost_Addexport:     0.00    0.00               
+ ann_costs_fuel    :     0.00    0.00               
+ ann_cost_operation:     0.00    0.00               
+ ann_costs_exchange:  -258.40 -170.83 !!!  Fail !!! 
+ ann_costs_CO2     :     0.00    0.00               
+ costs_NgasExchange:     0.00    0.00               
+ ann_costs_total   :  -258.40 -170.83 !!!  Fail !!! 
+ output_sum_FOM    :     0.00    0.00               
+ output_sum_Invest :     0.00    0.00               
+ costs_total       :  -258.40 -170.83 !!!  Fail !!! 
