@@ -2,7 +2,9 @@
 Nova Scotia hourly grid and hourly wind speed matching - Python machine learning optimizations
 
 ## Basic command to spin up temporary docker container
-```docker run --rm -p 8889:8888 -v "/$(pwd):/home/jovyan/work" quay.io/jupyter/base-notebook start-notebook.py --NotebookApp.token='my-token'```
+```
+docker run --rm -p 8889:8888 -v "/$(pwd):/home/jovyan/work" quay.io/jupyter/base-notebook start-notebook.py --NotebookApp.token='my-token'
+```
 
 Note that the JupterLabs Notebooks code/work/data that is saved as files will remain after the container is destroyed on exit, but the Python kernel software packages the JupyterLabs notebooks use each time requires redownloading/reinstalling.
 
@@ -13,11 +15,12 @@ Ideally one would make a permanent docker container with the docker-compose.yml 
 !pip install pandas numpy scipy kaleido==0.2.1 matplotlib pyarrow pooch seaborn plotly xarray ipywidgets
 ```
 
-### To use the cleaned up NSP OASIS hourly load MW from 2007-2024 (up to date 2024-10-31)
-See the image below
+### To use the cleaned up NSP OASIS hourly load MW from 2007-2024 
+#### (Updated to 2024-10-31)
+See the heatmap image below
 ```
 import pandas as pd
-hourly_df2 = pd.read_parquet('./oasis_07_24.parquet')```
+hourly_df2 = pd.read_parquet('./oasis_07_24.parquet')
 hourly_df2
 ```
 
@@ -43,10 +46,11 @@ WARNING that these JupyterLabs notebooks are messy at best! I'll try and load a 
 <strong>Authors:</strong> Jacob Thompson BASc. MSc., and Dr. Martin Tango
 
 "Nova Scotia’s Hourly and Climate Wind Data, Energy Storage, Hydrogen, and approaching 100% Renewable Energy using Wind-Water-Solar with EnergyPLAN"
+
 Event: Nova Scotia Offshore Wind R&D Conference 2024
 
 ![Research Poster](NetZeroAtlantic2024_POSTER_JacobThompson_MartinTango_48x36in_2024_11_16.png)
 
-## Make this yourself with the OasisHourly.ipynb notebook:
+## Make the heatmap below yourself with the OasisHourly.ipynb notebook:
 
 ![OASIS Hourly Load MW](notebook/oasis_hourly_figure03a.png)
