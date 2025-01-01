@@ -1,3 +1,6 @@
 [submodule "notebook/EPLANoptML"]
 	path = notebook/EPLANoptML
 	url = git@github.com:jacobthompson101/EPLANoptML.git
+[submodule "notebook/EPLANopt"]
+	path = notebook/EPLANopt
+	url = git@github.com:jacobthompson101/EPLANopt.git
