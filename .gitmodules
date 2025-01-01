@@ -1,0 +1,3 @@
+[submodule "notebook/EPLANoptML"]
+	path = notebook/EPLANoptML
+	url = git@github.com:jacobthompson101/EPLANoptML.git
