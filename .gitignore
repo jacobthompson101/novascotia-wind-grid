@@ -12,3 +12,7 @@ database
 
 # ignore big* .parquet files as over ~300 MB to 1GB
 big_*
+
+# Ignore EnergyPLAN software install path (seemed to run better within the directory and via commandline vs Jupyter notebook)
+notebook/EPLANoptML/ZipEnergyPLAN163
+notebook/EPLANoptML/input_folder/old
