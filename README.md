@@ -16,7 +16,7 @@ Ideally one would make a permanent docker container with the docker-compose.yml 
 ```
 
 ### To use the cleaned up NSP OASIS hourly load MW from 2007-2024 
-#### (Updated to 2024-11-30)
+#### (Updated to 2024-12-31)
 See the heatmap image below
 ```
 import pandas as pd
