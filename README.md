@@ -15,8 +15,8 @@ Ideally one would make a permanent docker container with the docker-compose.yml 
 !pip install pandas numpy scipy kaleido==0.2.1 matplotlib pyarrow pooch seaborn plotly xarray ipywidgets
 ```
 
-### To use the cleaned up NSP OASIS hourly load MW from 2007-2024 
-#### (Updated to 2024-12-31)
+### To use the cleaned up NSP OASIS hourly load MW from 2007-2025 
+#### (Updated to 2025-03-31)
 See the heatmap image below
 ```
 import pandas as pd
