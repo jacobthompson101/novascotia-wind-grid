@@ -20,7 +20,7 @@ Ideally one would make a permanent docker container with the docker-compose.yml 
 See the heatmap image below
 ```
 import pandas as pd
-hourly_df2 = pd.read_parquet('./oasis_07_24.parquet')
+hourly_df2 = pd.read_parquet('./oasis_07_25.parquet')
 hourly_df2
 ```
 
