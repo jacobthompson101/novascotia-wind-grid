@@ -23,18 +23,43 @@ import pandas as pd
 hourly_df2 = pd.read_parquet('./oasis_07_25.parquet')
 hourly_df2
 ```
-
+ 
 <strong>Reference:</strong> Nova Scotia Power hourly data source:
 
 [https://www.nspower.ca/oasis/monthly-reports/hourly-total-net-nova-scotia-load](https://www.nspower.ca/oasis/monthly-reports/hourly-total-net-nova-scotia-load)
+
+### To access this 2007-2022 Darksky Weather data for 230 coordinates evenly distributed across Nova Scotia land area
+See the Nova Scotia map in the posters with a lat/long grid to visualize.
+```
+big_df = pd.read_parquet('big_dfnsdup13col07_24.parquet')
+```
+Warning ~600 MB! This file isn't in the GitHub repo, please find it on my server here:
+[https://wiwasolvet.ca/big_dfnsdup13col07_24.parquet](https://wiwasolvet.ca/big_dfnsdup13col07_24.parquet)
 
 ### WARNING:
 If any code happens to break, keep in mind the large 300MB - 1GB parquet files that host the wind/weather data cannot be uploaded into GitHub.
 
 If any other code breaks, one thing that happened to me during development is the kaleido software package had a new version released that prevented creating images which caused me and others some peril. I have since locked the older working version in, but other packages might update and break things as well.
 
+### DarkSky Data! (10 m surface wind hub height)
+```
+# big_df2 = big_df[["time","winds","windd","preint","prepro","pretyp","temp","humid","cloud","press","dew", "lat", "long"]]
+# Note that energy content in the wind is most affected by wind speed first, and then in no certain order: pressure, humidity, and temperature.
 
-### OpenWeatherMap Offshore Weather Data - 4 reference sites
+# You can see my process in some of the Jupyter notebooks the methods I used to reduce the final data sizes to make it easier to work with on a standard computer.
+# That's a 2400MB reduction in RAM, going from about 4000 MB to 1600 MB, by only using 11 columns of 18, and by only working with 2007-2022 data and not 1990+
+# I only use the 2007+ weather data because I only have old OASIS data that was originally published that year.
+>> like in the original ~1GB parquet file that I had to compile from 3 smaller parquet files so my laptop wouldn't run out of memory in pandas.
+
+Note: PEI data is not uploaded to my server yet as I have to process the raw CSV files first into a parquet for the 41 coordinates.
+```
+
+Based on the original old license. Please reference DarkSky when using this dataset and use one of the 3 "poweredby" DarkSky logos wherever the data is used.
+![big_df_head](notebook/big_df_head_example.png)
+
+![DarkSky Logo](notebook/poweredby-darkbackground.png)
+
+### OpenWeatherMap Offshore Weather Data - 4 reference sites (10 m surface wind hub height)
 
 Weather data provided by OpenWeather
 
@@ -82,25 +107,25 @@ I included the Bubble Curtain graphic and the Meridian Kadlu Ocean Noise Python 
 ![Research Poster 2025](NetZeroAtlantic2025_POSTER_JacobThompson_MartinTango_48x36in_2025_06_17.png)
 
 ## References for easy access to hyperlinks
-1. GreenPowerLabs created the Solar Map. http://www.greenpowerlabs.com/services-overview/
-2. The Department of Energy created the Nova Scotia Wind Atlas. http://www.nswindatlas.ca/
-3. Dr. Richard Karsten et al created the Tidal Map. http://nswebguide.com/atei/
-4. Jacob Thompson created Nova Scotia’s Energy Map: www.gonotes.org
-5. CESAR created http://www.cesarnet.ca/visualization/sankey-diagrams-canadas-energy-systems 
-6. US DOE (2024), Hydrogen Shot, Retrieved from: https://www.energy.gov/eere/fuelcells/hydrogen-shot
-7. NSP (2024), NSP Grid Scale Batteries installation dates, Retrieved from: https://www.nspower.ca/cleanandgreen/innovation/grid-scale-batteries
-8. NSP (January 2023), Evergreen IRP Draft Results and Process Update January 13, 2023, pages 19, Retrieved from: https://www.nspower.ca/docs/default-source/irp/evergreen-irp-update-january-2023.pdf?sfvrsn=46ec6181_1 
-9. DarkSky Hourly Weather Data (1990-2022), Retrieved from: https://darksky.net
-10. EnergyPLAN annual enegy model, software Retrieved from: https://energyplan.eu
+1. GreenPowerLabs created the Solar Map. [http://www.greenpowerlabs.com/services-overview/](http://www.greenpowerlabs.com/services-overview/)
+2. The Department of Energy created the Nova Scotia Wind Atlas. [http://www.nswindatlas.ca/](http://www.nswindatlas.ca/)
+3. Dr. Richard Karsten et al created the Tidal Map. [http://nswebguide.com/atei/](http://nswebguide.com/atei/)
+4. Jacob Thompson created Nova Scotia’s Energy Map: [www.gonotes.org](https://www.gonotes.org)
+5. CESAR created [http://www.cesarnet.ca/visualization/sankey-diagrams-canadas-energy-systems](http://www.cesarnet.ca/visualization/sankey-diagrams-canadas-energy-systems)
+6. US DOE (2024), Hydrogen Shot, Retrieved from: [https://www.energy.gov/eere/fuelcells/hydrogen-shot](https://www.energy.gov/eere/fuelcells/hydrogen-shot)
+7. NSP (2024), NSP Grid Scale Batteries installation dates, Retrieved from: [https://www.nspower.ca/cleanandgreen/innovation/grid-scale-batteries](https://www.nspower.ca/cleanandgreen/innovation/grid-scale-batteries)
+8. NSP (January 2023), Evergreen IRP Draft Results and Process Update January 13, 2023, pages 19, Retrieved from: [https://www.nspower.ca/docs/default-source/irp/evergreen-irp-update-january-2023.pdf?sfvrsn=46ec6181_1](https://www.nspower.ca/docs/default-source/irp/evergreen-irp-update-january-2023.pdf?sfvrsn=46ec6181_1)
+9. DarkSky Hourly Weather Data (1990-2022), Retrieved from: [https://darksky.net](https://darksky.net)
+10. EnergyPLAN annual enegy model, software Retrieved from: [https://energyplan.eu](https://energyplan.eu)
 11. Thompson, Jacob (2016). Atlantic Canada’s distributed generation future : renewables, transportation, and energy storage 
-https://library2.smu.ca/xmlui/handle/01/26625
-12. Government of Canada (Oct 2024) Regional Assessment of Offshore Wind Development in Nova Scotia, Retrieved from: https://iaac-aeic.gc.ca/050/evaluations/proj/83514?culture=en-CA
-13. Nova Scotia Government (2024). Offshore Wind, Retrieved from: https://novascotia.ca/offshore-wind/
-14. NetZeroAtlantic (2023), Value Mapping Nova Scotia’s Offshore Wind Resources, Retrieved from: https://netzeroatlantic.ca/sites/default/files/2023-04/Value%20Mapping%20Nova%20Scotia%20Offshore%20Wind%20Resources.pdf 
+[https://library2.smu.ca/xmlui/handle/01/26625](https://library2.smu.ca/xmlui/handle/01/26625)
+12. Government of Canada (Oct 2024) Regional Assessment of Offshore Wind Development in Nova Scotia, Retrieved from: [https://iaac-aeic.gc.ca/050/evaluations/proj/83514?culture=en-CA](https://iaac-aeic.gc.ca/050/evaluations/proj/83514?culture=en-CA)
+13. Nova Scotia Government (2024). Offshore Wind, Retrieved from: [https://novascotia.ca/offshore-wind/](https://novascotia.ca/offshore-wind/)
+14. NetZeroAtlantic (2023), Value Mapping Nova Scotia’s Offshore Wind Resources, Retrieved from: [https://netzeroatlantic.ca/sites/default/files/2023-04/Value%20Mapping%20Nova%20Scotia%20Offshore%20Wind%20Resources.pdf](https://netzeroatlantic.ca/sites/default/files/2023-04/Value%20Mapping%20Nova%20Scotia%20Offshore%20Wind%20Resources.pdf)
 15. "Pearre N, Swan L (2020). Maritime Regional Wind Energy Resources: Determining preferred regions for additional onshore and offshore wind energy development."
-https://resl.me.dal.ca/wp-content/uploads/2021/01/maritime-regional-wind-energy-resources-final.pdf
-16. Nova Scotia Wind Grid (2024), Github code repo, Retrieved from: https://github.com/jacobthompson101/novascotia-wind-grid
-17. Bubble Curtain graphic: https://www.maritime-executive.com/article/vineyard-wind-tries-bubble-curtain-system-to-cut-pile-driving-noise
-18. Ocean Soundscape Map. Meridian: https://meridian.cs.dal.ca/ocean-soundscape-atlas/
-19. Kadlu OceanNoise Python Package: https://docs.meridian.cs.dal.ca/kadlu/install.html
-20. New England Maritimes Offshore Energy Corridor (NEMOEC): https://nemoec.com
+[https://resl.me.dal.ca/wp-content/uploads/2021/01/maritime-regional-wind-energy-resources-final.pdf](https://resl.me.dal.ca/wp-content/uploads/2021/01/maritime-regional-wind-energy-resources-final.pdf)
+16. Nova Scotia Wind Grid (2024), Github code repo, Retrieved from: [https://github.com/jacobthompson101/novascotia-wind-grid](https://github.com/jacobthompson101/novascotia-wind-grid)
+17. Bubble Curtain graphic: [https://www.maritime-executive.com/article/vineyard-wind-tries-bubble-curtain-system-to-cut-pile-driving-noise](https://www.maritime-executive.com/article/vineyard-wind-tries-bubble-curtain-system-to-cut-pile-driving-noise)
+18. Ocean Soundscape Map. Meridian: [https://meridian.cs.dal.ca/ocean-soundscape-atlas/](https://meridian.cs.dal.ca/ocean-soundscape-atlas/)
+19. Kadlu OceanNoise Python Package: [https://docs.meridian.cs.dal.ca/kadlu/install.html](https://docs.meridian.cs.dal.ca/kadlu/install.html)
+20. New England Maritimes Offshore Energy Corridor (NEMOEC): [https://nemoec.com](https://nemoec.com)
