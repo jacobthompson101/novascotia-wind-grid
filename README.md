@@ -58,15 +58,49 @@ Keep in mind I haven't updated new wind farms after maybe 2016+ onward, so this 
 
 WARNING that these JupyterLabs notebooks are messy at best! I'll try and load a cleaned up version that doesn't have all the incremental steps, and so that it can run with the parquet and CSV files that are actually available, i.e. most things will be broken at first, so just comment out code that doesn't have associated data files.
 
-## Research Poster:
+## Research Poster 1: Nova Scotia Offshore Wind R&D Conference 2024
 <strong>Authors:</strong> Jacob Thompson BASc. MSc., and Dr. Martin Tango
 
 "Nova Scotia’s Hourly and Climate Wind Data, Energy Storage, Hydrogen, and approaching 100% Renewable Energy using Wind-Water-Solar with EnergyPLAN"
 
-Event: Nova Scotia Offshore Wind R&D Conference 2024
 
-![Research Poster](NetZeroAtlantic2024_POSTER_JacobThompson_MartinTango_48x36in_2024_11_16.png)
+![Research Poster 2024](NetZeroAtlantic2024_POSTER_JacobThompson_MartinTango_48x36in_2024_11_16.png)
 
 ## Make the heatmap below yourself with the OasisHourly.ipynb notebook:
 
 ![OASIS Hourly Load MW](notebook/oasis_hourly_figure03a.png)
+
+## Research Poster 2: Atlantic Canadian Conference on Energy System Modelling 2025
+### (continued and extended from previous work):
+<strong>Authors:</strong> Jacob Thompson BASc. MSc., and Dr. Martin Tango
+
+"Nova Scotia’s Long Duration Energy Storage, Sector-Coupling Hydrogen, Captured Waste Heat, and 100% Renewables Total Primary Energy Supply"
+
+Note: this poster adds in 6 new charts/figures with offshore wind data based on 2000-2025 hourly OWM data for 4 reference sites. I added 5 new graphics to highlight best practices in offshore HVDC transmission lines from NEMOEC, I updated the OASIS hourly dataset from NSP to include available 2025 data and updated the annual heatmap and winter/summer chart. 
+I included the Bubble Curtain graphic and the Meridian Kadlu Ocean Noise Python package because I believe this is important future work to get proper EIA approvals while building offshore wind turbine foundations and social acceptance of these projects.
+
+![Research Poster 2025](NetZeroAtlantic2025_POSTER_JacobThompson_MartinTango_48x36in_2025_06_17.png)
+
+## References for easy access to hyperlinks
+1. GreenPowerLabs created the Solar Map. http://www.greenpowerlabs.com/services-overview/
+2. The Department of Energy created the Nova Scotia Wind Atlas. http://www.nswindatlas.ca/
+3. Dr. Richard Karsten et al created the Tidal Map. http://nswebguide.com/atei/
+4. Jacob Thompson created Nova Scotia’s Energy Map: www.gonotes.org
+5. CESAR created http://www.cesarnet.ca/visualization/sankey-diagrams-canadas-energy-systems 
+6. US DOE (2024), Hydrogen Shot, Retrieved from: https://www.energy.gov/eere/fuelcells/hydrogen-shot
+7. NSP (2024), NSP Grid Scale Batteries installation dates, Retrieved from: https://www.nspower.ca/cleanandgreen/innovation/grid-scale-batteries
+8. NSP (January 2023), Evergreen IRP Draft Results and Process Update January 13, 2023, pages 19, Retrieved from: https://www.nspower.ca/docs/default-source/irp/evergreen-irp-update-january-2023.pdf?sfvrsn=46ec6181_1 
+9. DarkSky Hourly Weather Data (1990-2022), Retrieved from: https://darksky.net
+10. EnergyPLAN annual enegy model, software Retrieved from: https://energyplan.eu
+11. Thompson, Jacob (2016). Atlantic Canada’s distributed generation future : renewables, transportation, and energy storage 
+https://library2.smu.ca/xmlui/handle/01/26625
+12. Government of Canada (Oct 2024) Regional Assessment of Offshore Wind Development in Nova Scotia, Retrieved from: https://iaac-aeic.gc.ca/050/evaluations/proj/83514?culture=en-CA
+13. Nova Scotia Government (2024). Offshore Wind, Retrieved from: https://novascotia.ca/offshore-wind/
+14. NetZeroAtlantic (2023), Value Mapping Nova Scotia’s Offshore Wind Resources, Retrieved from: https://netzeroatlantic.ca/sites/default/files/2023-04/Value%20Mapping%20Nova%20Scotia%20Offshore%20Wind%20Resources.pdf 
+15. "Pearre N, Swan L (2020). Maritime Regional Wind Energy Resources: Determining preferred regions for additional onshore and offshore wind energy development."
+https://resl.me.dal.ca/wp-content/uploads/2021/01/maritime-regional-wind-energy-resources-final.pdf
+16. Nova Scotia Wind Grid (2024), Github code repo, Retrieved from: https://github.com/jacobthompson101/novascotia-wind-grid
+17. Bubble Curtain graphic: https://www.maritime-executive.com/article/vineyard-wind-tries-bubble-curtain-system-to-cut-pile-driving-noise
+18. Ocean Soundscape Map. Meridian: https://meridian.cs.dal.ca/ocean-soundscape-atlas/
+19. Kadlu OceanNoise Python Package: https://docs.meridian.cs.dal.ca/kadlu/install.html
+20. New England Maritimes Offshore Energy Corridor (NEMOEC): https://nemoec.com
