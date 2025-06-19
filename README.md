@@ -57,7 +57,7 @@ Note: PEI data is not uploaded to my server yet as I have to process the raw CSV
 Based on the original old license. Please reference DarkSky when using this dataset and use one of the 3 "poweredby" DarkSky logos wherever the data is used.
 ![big_df_head](notebook/big_df_head_example.png)
 
-![DarkSky Logo](notebook/poweredby-darkbackground.png)
+![DarkSky Logo](notebook/poweredby-darkbackground_nontransparent.png)
 
 ### OpenWeatherMap Offshore Weather Data - 4 reference sites (10 m surface wind hub height)
 
@@ -76,10 +76,12 @@ owm_hourly_fourrefcases_2000_2025.parquet
 
 ### Note:
 Please reference my name and thesis for the Nova Scotia Power Plant work if you happen to use any of the power plant data information in a paper as it took me a number of years to put all this together and I would appreciate it! When I get some time I will update the powerplant csv to include the newer major power plants.
-
+```
+NovaScotiaPowerPlants.csv
+```
 Thompson, Jacob Lawrence (2016), Atlantic Canada’s Distributed Generation Future: Renewables, Transportation, and Energy Storage, Retrieved from: https://library2.smu.ca/xmlui/handle/01/26625 and https://github.com/jacobthompson101/novascotia-wind-grid
 
-Keep in mind I haven't updated new wind farms after maybe 2016+ onward, so this is bound to be missing some of the newer wind farms, and does not have any of the ~11,000 distributed solar PV locations.
+Keep in mind I haven't updated new wind farms after maybe 2016+ onward (some were planned to be built by 2020), so this is bound to be missing some of the newer wind farms, and does not have any of the ~11,000 distributed solar PV locations.
 
 WARNING that these JupyterLabs notebooks are messy at best! I'll try and load a cleaned up version that doesn't have all the incremental steps, and so that it can run with the parquet and CSV files that are actually available, i.e. most things will be broken at first, so just comment out code that doesn't have associated data files.
 
@@ -100,7 +102,9 @@ WARNING that these JupyterLabs notebooks are messy at best! I'll try and load a 
 <strong>Authors:</strong> Jacob Thompson BASc. MSc., and Dr. Martin Tango
 
 "Nova Scotia’s Long Duration Energy Storage, Sector-Coupling Hydrogen, Captured Waste Heat, and 100% Renewables Total Primary Energy Supply"
-
+```
+offshore.ipynb
+```
 Note: this poster adds in 6 new charts/figures with offshore wind data based on 2000-2025 hourly OWM data for 4 reference sites. I added 5 new graphics to highlight best practices in offshore HVDC transmission lines from NEMOEC, I updated the OASIS hourly dataset from NSP to include available 2025 data and updated the annual heatmap and winter/summer chart. 
 I included the Bubble Curtain graphic and the Meridian Kadlu Ocean Noise Python package because I believe this is important future work to get proper EIA approvals while building offshore wind turbine foundations and social acceptance of these projects.
 
