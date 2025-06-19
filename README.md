@@ -40,12 +40,14 @@ Weather data provided by OpenWeather
 
 https://openweathermap.org/
 
+Open Licenses ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) and [ODbL](https://opendatacommons.org/licenses/odbl/))
+
 ```
 owm_hourly_fourrefcases_12col_07_25.parquet
 owm_hourly_fourrefcases_2000_2025.parquet
 ```
 
-![OpenWeatherMap Logo](notebook/OpenWeather-Master-Logo-20RGB.png)
+![OpenWeatherMap Logo](notebook/OpenWeather-Master-Logo-RGB.png)
 
 ### Note:
 Please reference my name and thesis for the Nova Scotia Power Plant work if you happen to use any of the power plant data information in a paper as it took me a number of years to put all this together and I would appreciate it! When I get some time I will update the powerplant csv to include the newer major power plants.
