@@ -33,6 +33,20 @@ If any code happens to break, keep in mind the large 300MB - 1GB parquet files t
 
 If any other code breaks, one thing that happened to me during development is the kaleido software package had a new version released that prevented creating images which caused me and others some peril. I have since locked the older working version in, but other packages might update and break things as well.
 
+
+### OpenWeatherMap Offshore Weather Data - 4 reference sites
+
+Weather data provided by OpenWeather
+
+https://openweathermap.org/
+
+```
+owm_hourly_fourrefcases_12col_07_25.parquet
+owm_hourly_fourrefcases_2000_2025.parquet
+```
+
+![OpenWeatherMap Logo](notebook/OpenWeather-Master-Logo-20RGB.png)
+
 ### Note:
 Please reference my name and thesis for the Nova Scotia Power Plant work if you happen to use any of the power plant data information in a paper as it took me a number of years to put all this together and I would appreciate it! When I get some time I will update the powerplant csv to include the newer major power plants.
 
