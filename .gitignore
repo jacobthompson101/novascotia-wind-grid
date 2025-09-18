@@ -12,3 +12,9 @@ database
 
 # ignore big* .parquet files as over ~300 MB to 1GB
 big_*
+
+# ignore CDS config file
+.cdsapirc
+
+# ignore Kadlu data folder
+notebook/kadlu_data
