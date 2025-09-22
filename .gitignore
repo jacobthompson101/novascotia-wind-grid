@@ -15,6 +15,7 @@ big_*
 
 # ignore CDS config file
 .cdsapirc
+*.cdsapirc
 
 # ignore Kadlu data folder
 notebook/kadlu_data
