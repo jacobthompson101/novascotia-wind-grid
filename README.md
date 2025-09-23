@@ -110,6 +110,21 @@ I included the Bubble Curtain graphic and the Meridian Kadlu Ocean Noise Python 
 
 ![Research Poster 2025](NetZeroAtlantic2025_POSTER_JacobThompson_MartinTango_48x36in_2025_06_17.png)
 
+## Research Poster 3: Nova Scotia Offshore Wind R&D Forum 2025
+### (continued and extended from previous work):
+<strong>Authors:</strong> Jacob Thompson BASc. MSc., and Dr. Martin Tango
+
+"Machine Learning Optimization Trials: NS grid demand and firm, dispatchable offshore/onshore wind and the chaos of weather patterns; 
+Two tall tales of data? Noise versus Signal."
+```
+kadlu.ipynb
+OasisHourly_ML.iypnb
+```
+Note: this poster adds in 6 new charts/figures with offshore wind data based on 2000-2025 hourly OWM data for 4 reference sites. I added 5 new graphics to highlight best practices in offshore HVDC transmission lines from NEMOEC, I updated the OASIS hourly dataset from NSP to include available 2025 data and updated the annual heatmap and winter/summer chart. 
+I included the Bubble Curtain graphic and the Meridian Kadlu Ocean Noise Python package because I believe this is important future work to get proper EIA approvals while building offshore wind turbine foundations and social acceptance of these projects.
+
+![Research Poster 2025-09-23](NetZeroAtlantic2025_POSTER_JacobThompson_MartinTango_48x36in_2025_09_23.png)
+
 ## References for easy access to hyperlinks
 1. GreenPowerLabs created the Solar Map. [http://www.greenpowerlabs.com/services-overview/](http://www.greenpowerlabs.com/services-overview/)
 2. The Department of Energy created the Nova Scotia Wind Atlas. [http://www.nswindatlas.ca/](http://www.nswindatlas.ca/)
