@@ -6,6 +6,12 @@ Nova Scotia hourly grid and hourly wind speed matching - Python machine learning
 docker run --rm -p 8889:8888 -v "/$(pwd):/home/jovyan/work" quay.io/jupyter/base-notebook start-notebook.py --NotebookApp.token='my-token'
 ```
 
+## Latest docker-compose uses a Dockerfile 
+...to build the NVidia CUDA ML required packages, and it has Jupyter notebooks as well, and the image only builds once rather than having to keep reinstalling the Python packages. As the project has matured this makes sense for consistency/less temporary nature.
+```
+docker-compose up -d --build
+```
+
 Note that the JupterLabs Notebooks code/work/data that is saved as files will remain after the container is destroyed on exit, but the Python kernel software packages the JupyterLabs notebooks use each time requires redownloading/reinstalling.
 
 Ideally one would make a permanent docker container with the docker-compose.yml (working on that next), or just remove the (--rm from the command), to not require installing the environment each day, but you can exit your browser just as long as you don't stop Windows Docker Desktop or the running docker container in the git bash command line for example. I haven't tested this repo in Linux or Mac, so you might have to tweak some things to get it working.
