@@ -1,0 +1,38 @@
+services:
+  app:
+    container_name: novascotiawindgridrapids
+    build:
+      context: .
+      dockerfile: ./DockerfileRapidsai
+    ports:
+      - "8888:8888"
+      - "8787:8787"
+      - "8786:8786"
+    restart: unless-stopped
+    volumes:
+      - "/c/Users/jaket/github/novascotia-wind-grid:/home/rapids/notebooks/work"
+
+    # --gpus all
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
+
+    # --pull always (This is not a direct docker-compose equivalent for 'always pull' on every 'up'.
+    # Docker Compose will pull if the image isn't found or if you use 'docker-compose pull' explicitly.
+    # To force a pull on every 'up', you'd typically run 'docker-compose pull' before 'docker-compose up'.)
+
+    # --shm-size=1g
+    shm_size: 1g
+
+    # --ulimit memlock=-1 --ulimit stack=67108864
+    ulimits:
+      memlock:
+        hard: -1
+        soft: -1
+      stack:
+        hard: 67108864
+        soft: 67108864

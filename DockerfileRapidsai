@@ -1,0 +1,3 @@
+FROM rapidsai/notebooks:25.10a-cuda13.0-py3.12
+
+RUN pip install pandas numpy scipy kaleido==0.2.1 matplotlib pyarrow pooch seaborn plotly xarray ipywidgets cfgrib cartopy scikit-learn tensorflow kadlu
