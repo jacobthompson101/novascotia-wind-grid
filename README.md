@@ -127,7 +127,7 @@ kadlu.ipynb
 OasisHourly_ML.iypnb
 ```
 Note: this poster adds in many new charts/figures with 8 offshore Kadlu ocean noise transmission loss figures I modelled in Kadlu. I researched background papers on how Double Bubble Curtains reduces sound and is part of harm reduction and mitigation strategy built on solid data. 
-I added novel work with scikit-learn, and also NVivia CUDA machine learning tools, cuml/cudf packages, for creating cross validation of mock model data for the 2025 year based on historical OASIS Load MW values and datetimes. 
+I added novel work with scikit-learn, and also NVidia CUDA machine learning tools, cuml/cudf packages, for creating cross validation of mock model data for the 2025 year based on historical OASIS Load MW values and datetimes.
 The CUDA toolkit was essential in speeding up ML training model runs of the prediction tools, to move from the CPU to the GPU, and I intended to run this on the weather data now that I have understood the best way to install it. 
 Please see the Docker package if you want some quick ideas on your own setup. 
 I included basic stats from Kadlu/DFO on Marine Species with a focus on one whale species, this is key for social license to approve foundations offshore.
